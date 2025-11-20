@@ -62,3 +62,4 @@ This will open a web interface at http://localhost:8501 where you can:
 - qrcode
 - pillow
 - streamlit
+# QR-Code-Generator
