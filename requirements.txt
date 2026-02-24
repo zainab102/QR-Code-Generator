@@ -1,0 +1,5 @@
+Flask
+Pillow
+PyQt5
+qrcode[pil]
+streamlit

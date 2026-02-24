@@ -1,7 +1,5 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QFileDialog, QMessageBox
-from PyQt5.QtGui import QPixmap
-from PyQt5.QtCore import Qt
 import qrcode
 from qrcode.image.pil import PilImage
 from PIL import Image

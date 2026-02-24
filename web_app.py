@@ -254,4 +254,4 @@ def serve_qr(filename):
     return send_file(os.path.join(temp_dir, filename), mimetype='image/png')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)

@@ -26,7 +26,7 @@ A simple QR code generator written in Python with CLI and web-based GUI options.
 
 3. Install dependencies:
    ```
-   pip install qrcode[pil] pillow streamlit
+   pip install -r requirements.txt
    ```
 
 ## Usage
@@ -39,8 +39,8 @@ python main.py "Hello World" -o hello.png -fc blue -bc white
 
 Options:
 - `-o, --output`: Output filename (default: qr_code.png)
-- `-fc, --fill-color`: Fill color (default: black)
-- `-bc, --back-color`: Background color (default: white)
+- `-fc, --fill_color`: Fill color (default: black)
+- `-bc, --back_color`: Background color (default: white)
 - `-l, --logo`: Path to logo image (optional)
 
 ### Web GUI (Streamlit)
@@ -62,4 +62,3 @@ This will open a web interface at http://localhost:8501 where you can:
 - qrcode
 - pillow
 - streamlit
-# QR-Code-Generator

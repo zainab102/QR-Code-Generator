@@ -2,7 +2,6 @@ import streamlit as st
 import qrcode
 from qrcode.image.pil import PilImage
 from PIL import Image
-import os
 import io
 
 st.title("QR Code Generator")

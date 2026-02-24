@@ -1,5 +1,4 @@
 import qrcode
-from qrcode.image.pil import PilImage
 from PIL import Image
 import argparse
 import os
